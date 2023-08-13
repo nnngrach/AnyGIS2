@@ -129,4 +129,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Other temp files
 .DS_Store
+.bkp
+.dtmp

@@ -12,6 +12,11 @@ export const registerRoutes = ( app: express.Application ) => {
         res.redirect('/files/mapsListCopy.js')
     } );
 
+    app.get( "/get_test_tile", ( req: any, res ) => {
+        // res.json([{text: 'First'}, {text: 'Second'}, {text: 'Third'}]);
+        res.redirect('https://tile.openstreetmap.org/0/0/0.png')
+    } );
+
     emptyRoutes.registerRoutes(app);
 
 
