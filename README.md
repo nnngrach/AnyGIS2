@@ -1,10 +1,16 @@
-!AnyGIS 2.0 
+# AnyGIS 2.0 beta
 
-Work in progress.
+
+
+---
+```
+git clone https://github.com/nnngrach/AnyGIS2.git
+docker build . -t nnngrach/anygis2_backend
+docker run -p 8080:8000 -d nnngrach/anygis2_backend
+```
 
 ---
 
-<p align="center">
-	<a href="https://t.me/anygis">Telegram: https://t.me/anygis</a> <br>
-	<a href="mailto:anygis@bk.ru">Email: anygis@bk.ru</a> 
-</p>
+Work in progress...
+
+![](https://github.com/nnngrach/AnyGIS2/blob/main/res/uml/AnyGIS2.drawio.png?raw=true)
