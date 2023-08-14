@@ -4,16 +4,13 @@
 
 ---
 ```
-git clone https://github.com/nnngrach/AnyGIS2.git
+Install Git and Docker. Then:
 
-cd backend
-docker build . -t nnngrach/anygis2_backend
-docker run -p 8000:8000 -d nnngrach/anygis2_backend
+git clone https://github.com/nnngrach/AnyGIS2.git 
+cd AnyGIS2
+./install.sh
+./start.sh
 
-cd ..
-cd frontend
-docker build . -t nnngrach/anygis2_frontend
-docker run -p 3000:3000 -d nnngrach/anygis2_frontend
 ```
 
 ---
