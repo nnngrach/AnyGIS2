@@ -12,7 +12,7 @@ export function FetchTestMessage() {
         try {
             setError("")
             setLoading(true)
-            const response = await axios.get<ITestMessage>('http://localhost:8000/')
+            const response = await axios.get<ITestMessage>('http://localhost:8000/api/ping')
             setProduct(response.data)
             setLoading(false)
         } catch (e: unknown) {

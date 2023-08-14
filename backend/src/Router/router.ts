@@ -3,19 +3,52 @@ import * as emptyRoutes from './empty'
 
 export const registerRoutes = ( app: express.Application ) => {
 
-    app.get( "/", ( req: any, res ) => {
+    //Api pages
+
+    app.get( "/api/", ( req: any, res ) => {
         res.json({ text: 'Hello World from backend !!!' });
     } );
 
-    app.get( "/list", ( req: any, res ) => {
+    app.get( "/api/ping", ( req: any, res ) => {
+        res.json({ text: 'Hello World from backend !!!' });
+    } );
+
+    app.get( "/api/list", ( req: any, res ) => {
         // res.json([{text: 'First'}, {text: 'Second'}, {text: 'Third'}]);
         res.redirect('/files/mapsListCopy.js')
     } );
 
-    app.get( "/get_test_tile", ( req: any, res ) => {
+    app.get( "/api/get_test_tile", ( req: any, res ) => {
         // res.json([{text: 'First'}, {text: 'Second'}, {text: 'Third'}]);
         res.redirect('https://tile.openstreetmap.org/0/0/0.png')
     } );
+
+
+
+    // Site pages
+
+    app.get( "/", ( req: any, res ) => {
+        res.redirect('http://localhost:3000/')
+    } );
+
+    app.get( "/downloadpage", ( req: any, res ) => {
+        res.redirect('http://localhost:3000/downloadpage')
+    } );
+
+    app.get( "/addmap", ( req: any, res ) => {
+        res.redirect('http://localhost:3000/addmap')
+    } );
+
+    app.get( "/articles", ( req: any, res ) => {
+        res.redirect('http://localhost:3000/articles')
+    } );
+
+    app.get( "/about", ( req: any, res ) => {
+        res.redirect('http://localhost:3000/about')
+    } );
+
+    
+    
 
     emptyRoutes.registerRoutes(app);
 
