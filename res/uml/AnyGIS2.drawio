@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-08-13T14:44:23.796Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="vKiKgU9jqS5_FIKxl6wd" version="21.6.8" type="device">
+<mxfile host="Electron" modified="2023-08-15T07:39:35.465Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="1rt-TZgwDwyoybOVLzUX" version="21.6.8" type="device">
   <diagram name="Page-1" id="6SMgkmVBa6Un2ES5iWTS">
-    <mxGraphModel dx="1804" dy="1774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2318" dy="2137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="huuGGd0OXJVaM7Pj4FzD-5" value="Adding New Map Wizzard" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="huuGGd0OXJVaM7Pj4FzD-1" vertex="1">
           <mxGeometry x="165" y="50" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="huuGGd0OXJVaM7Pj4FzD-9" value="Maps list page" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="huuGGd0OXJVaM7Pj4FzD-1" vertex="1">
+        <mxCell id="huuGGd0OXJVaM7Pj4FzD-9" value="Maps list page" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="huuGGd0OXJVaM7Pj4FzD-1" vertex="1">
           <mxGeometry x="5" y="50" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="huuGGd0OXJVaM7Pj4FzD-84" value="Maps list Database admin tools" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="huuGGd0OXJVaM7Pj4FzD-1" vertex="1">
@@ -37,7 +37,7 @@
         <mxCell id="huuGGd0OXJVaM7Pj4FzD-26" value="Maps DataBase manager" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="huuGGd0OXJVaM7Pj4FzD-24" vertex="1">
           <mxGeometry x="448" y="30" width="147" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="huuGGd0OXJVaM7Pj4FzD-30" value="Tile number processor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="huuGGd0OXJVaM7Pj4FzD-24" vertex="1">
+        <mxCell id="huuGGd0OXJVaM7Pj4FzD-30" value="Get simple tile" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="huuGGd0OXJVaM7Pj4FzD-24" vertex="1">
           <mxGeometry x="13" y="30" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="huuGGd0OXJVaM7Pj4FzD-31" value="{z,x,y}, {bbox}, {sasplanet}, {time}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="huuGGd0OXJVaM7Pj4FzD-30" vertex="1">
@@ -82,7 +82,7 @@
         <mxCell id="huuGGd0OXJVaM7Pj4FzD-72" value="File Storage &amp;amp; DB Helper" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="huuGGd0OXJVaM7Pj4FzD-71" vertex="1">
           <mxGeometry x="623" y="30" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="huuGGd0OXJVaM7Pj4FzD-73" value="Math &amp;amp; Geo calculator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="huuGGd0OXJVaM7Pj4FzD-71" vertex="1">
+        <mxCell id="huuGGd0OXJVaM7Pj4FzD-73" value="Geo calculator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="huuGGd0OXJVaM7Pj4FzD-71" vertex="1">
           <mxGeometry x="13" y="30" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="huuGGd0OXJVaM7Pj4FzD-76" value="Web Helper" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="huuGGd0OXJVaM7Pj4FzD-71" vertex="1">
@@ -196,7 +196,7 @@
         <mxCell id="s8e9Fe9YqG8QMtzz1pB9-2" value="Not worked yet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s8e9Fe9YqG8QMtzz1pB9-3" value="Some work done" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#CCCCCC;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="s8e9Fe9YqG8QMtzz1pB9-3" value="Some work done" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="240" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s8e9Fe9YqG8QMtzz1pB9-4" value="Work in progress (now)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
@@ -211,7 +211,7 @@
         <mxCell id="s8e9Fe9YqG8QMtzz1pB9-7" value="AnyGIS 2.0 progress" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="-150" y="-80" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s8e9Fe9YqG8QMtzz1pB9-13" value="Other pages" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="s8e9Fe9YqG8QMtzz1pB9-13" value="Other pages" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="770" y="130" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s8e9Fe9YqG8QMtzz1pB9-14" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">

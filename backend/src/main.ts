@@ -1,10 +1,10 @@
-import express from 'express';
+import express, { Express, Request, Response } from 'express';
 import * as routes from './Router/router'
 
-const app = express();
+const app: Express = express();
 const port = 8000;
 
-app.use(function (req, res, next) {
+app.use(function (req: Request, res: Response, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Method', 'GET');
     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
